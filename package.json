@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch --env-file .env src/server.ts",
     "build": "npx tsc && copy .env dist\\.env",
-    "start": "tsx --env-file .env src/server.ts"
+    "start": "tsx src/server.ts"
   },
   "keywords": [],
   "author": "",
